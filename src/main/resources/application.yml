@@ -6,3 +6,12 @@ jwt:
   expires_in: 300 # 5 minutes
   mobile_expires_in: 600 # 10 minutes
   secret: queenvictoria
+  
+spring:
+   jpa:
+      hibernate:
+         ddl-auto: update
+   datasource:
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: 1234
